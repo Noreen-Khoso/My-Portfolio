@@ -1,5 +1,6 @@
 import React from 'react'
 import project from "../Assets/food.PNG"
+import miniproject from "../Assets/miniproject.PNG"
 
 const Projects = () => {
   return (
@@ -21,7 +22,20 @@ const Projects = () => {
                           Html with Tailwind CSS
                         </span>
                         <div className=' pt-10 text-center'>
-                            <a href=""><button className=' text-center rounded-lg bg-white text-gray-700 font-bold text-lg'>code</button></a>
+                            <a href="https://github.com/Noreen-Khoso/task.git" target='_blank'><button className=' text-center rounded-lg bg-white text-gray-700 font-bold text-lg'>code</button></a>
+                            {/* <a href=""><button className='text-center rounded-lg bg-white text-gray-700 font-bold text-lg'></button></a> */}
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style={{backgroundImage : `url(${miniproject})`}}  className=' shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className=' opacity-0 group-hover:opacity-100'>
+                        <span className=' text-2xl font-bold text-white tracking-wider'>
+                          HTML CSS & JavaScript
+                        </span>
+                        <div className=' pt-10 text-center'>
+                            <a href="https://github.com/Noreen-Khoso/Mini-Project.git" target='_blank'><button className=' text-center rounded-lg bg-white text-gray-700 font-bold text-lg'>code</button></a>
                             {/* <a href=""><button className='text-center rounded-lg bg-white text-gray-700 font-bold text-lg'></button></a> */}
                         </div>
                     </div>
