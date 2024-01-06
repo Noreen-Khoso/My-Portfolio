@@ -49,11 +49,24 @@ const Navigation = () => {
                         <li className="text-2xl py-3 text-gray-300  hover:text-cyan-700  hover:border-b-2 border-cyan-700 duration-200 ease-in cursor-pointer px-5"><Link onClick={handlemenu} to ="Contacts" smooth={true} duration={500}> Contact</Link></li>
                     </ul>
                     <div className=' flex flex-1 gap-2 absolute bottom-20'>
-                        <FaFacebook size={30} className=' hover:text-cyan-700' />
-                        <FaLinkedin size={30} className=' hover:text-cyan-700' />
+                        <a href='https://www.facebook.com/profile.php?id=100089104219371' target="_blank" >
+                        <FaFacebook size={30} className=' hover:text-cyan-700' /> 
+                        </a>
+                        <a href='https://github.com/Noreen-Khoso' target="_blank" >
                         <FaGithub size={30} className=' hover:text-cyan-700' />
+                        </a>
+                        <a href='https://www.linkedin.com/in/noreen-khoso-7b29142a6/' target="_blank">
+
+                        <FaLinkedin size={30} className=' hover:text-cyan-700' />
+                        </a>
+                        <a href='/' target="_blank">
                         < BiLogoGmail size={30} className=' hover:text-cyan-700' />
+
+                        </a>
+                        <a href='https://www.freelancer.com/u/noreenkhoso0' target="_blank">
+
                         <SiFreelancer size={30} className=' hover:text-cyan-700' />
+                        </a>
 
 
                     </div>
@@ -69,7 +82,7 @@ const Navigation = () => {
                             </a>
                         </li>
                         <li className=' w-[150px] h-[50px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300  bg-gray-800 '>
-                            <a className=' flex justify-between items-center w-full  text-gray-300' href='https://github.com/Noreen-Khoso' target="_blank">
+                            <a className=' flex justify-between items-center w-full  text-gray-300' href='https://github.com/Noreen-Khoso' target="_blank" >
                                GitHub <FaGithub size={30}/>
                             </a>
                         </li>
