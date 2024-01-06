@@ -59,7 +59,7 @@ const Navigation = () => {
 
                         <FaLinkedin size={30} className=' hover:text-cyan-700' />
                         </a>
-                        <a href='/' target="_blank">
+                        <a href='mailto:noreenkhoso15@gmail.com' target="_blank">
                         < BiLogoGmail size={30} className=' hover:text-cyan-700' />
 
                         </a>
