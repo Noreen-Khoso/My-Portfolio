@@ -49,7 +49,7 @@ const Navigation = () => {
                         <li className="text-2xl py-3 text-gray-300  hover:text-cyan-700  hover:border-b-2 border-cyan-700 duration-200 ease-in cursor-pointer px-5"><Link onClick={handlemenu} to ="Contacts" smooth={true} duration={500}> Contact</Link></li>
                     </ul>
                     <div className=' flex flex-1 gap-2 absolute bottom-20'>
-                        <a href='https://www.facebook.com/profile.php?id=100089104219371' target="_blank" >
+                        <a href='https://www.facebook.com/profile.php?id=100089104219371&mibextid=9R9pXO' target="_blank" >
                         <FaFacebook size={30} className=' hover:text-cyan-700' /> 
                         </a>
                         <a href='https://github.com/Noreen-Khoso' target="_blank" >
@@ -77,7 +77,7 @@ const Navigation = () => {
                 <div className=' fixed hidden lg:flex flex-col top-[35%] left-0'>
                     <ul>
                         <li className=' w-[150px] h-[50px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300  bg-blue-800 '>
-                            <a className=' flex justify-between items-center w-full  text-gray-300' href='https://www.facebook.com/profile.php?id=100089104219371' target="_blank">
+                            <a className=' flex justify-between items-center w-full  text-gray-300' href='https://www.facebook.com/profile.php?id=100089104219371&mibextid=9R9pXO' target="_blank">
                                Facebook  <FaFacebook  size={30}/>
                             </a>
                         </li>
@@ -92,7 +92,7 @@ const Navigation = () => {
                             </a>
                         </li>
                         <li className=' w-[150px] h-[50px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300  bg-green-400 '>
-                            <a className=' flex justify-between items-center w-full  text-gray-300' href='/' target="_blank">
+                            <a className=' flex justify-between items-center w-full  text-gray-300' href='mailto:noreenkhoso15@gmail.com' target="_blank">
                                Gmail <BiLogoGmail size={30}/>
                             </a>
                         </li>
