@@ -13,8 +13,8 @@ const Home = () => {
         <p className=' text-slate-400 py-4 max-w-[700px]'>"I'm fluent in the MERN stack, combining React JS for interactive interfaces, Tailwind CSS for utility-first styling, 
         Express JS for efficient server-side logic,and MongoDB for flexible data management." </p>
        <div>
-
-          <Button text="My Resume"/>
+          
+        <a href="../Assets/Minimalist Modern Professional CV Resume.pdf" download ><Button text="My Resume"/></a>
        </div>
         
 
