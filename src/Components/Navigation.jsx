@@ -27,7 +27,7 @@ const Navigation = () => {
                     <li className = "text-gray-300  hover:text-pink-600  hover:border-b-2 border-pink-600 duration-200 ease-"><Link to ="About" smooth={true} duration={500}> About</Link></li>
                     <li className = "text-gray-300  hover:text-pink-600  hover:border-b-2 border-pink-600 duration-200 ease-"><Link to ="skills" smooth={true} duration={500}> Skills</Link></li>
                     <li className = "text-gray-300  hover:text-pink-600  hover:border-b-2 border-pink-600 duration-200 ease-"><Link to ="Projects" smooth={true} duration={500}> Projects</Link></li>
-                    <li className = "text-gray-300  hover:text-pink-600  hover:border-b-2 border-pink-600 duration-200 ease-"><Link to ="Contacts" smooth={true} duration={500}> Contact</Link></li>
+                    {/* <li className = "text-gray-300  hover:text-pink-600  hover:border-b-2 border-pink-600 duration-200 ease-"><Link to ="Contacts" smooth={true} duration={500}> Contact</Link></li> */}
 
                 </ul>
 
@@ -46,7 +46,7 @@ const Navigation = () => {
                         <li className="text-2xl py-3 text-gray-300  hover:text-cyan-700  hover:border-b-2 border-cyan-700 duration-200 ease-in cursor-pointer px-5"><Link onClick={handlemenu} to ="About" smooth={true} duration={500}> About</Link></li>
                         <li className="text-2xl py-3 text-gray-300  hover:text-cyan-700  hover:border-b-2 border-cyan-700 duration-200 ease-in cursor-pointer px-5"><Link onClick={handlemenu} to ="skills" smooth={true} duration={500}> Skills</Link></li>
                         <li className="text-2xl py-3 text-gray-300  hover:text-cyan-700  hover:border-b-2 border-cyan-700 duration-200 ease-in cursor-pointer px-5"><Link onClick={handlemenu} to ="Projects" smooth={true} duration={500}> Projects</Link></li>
-                        <li className="text-2xl py-3 text-gray-300  hover:text-cyan-700  hover:border-b-2 border-cyan-700 duration-200 ease-in cursor-pointer px-5"><Link onClick={handlemenu} to ="Contacts" smooth={true} duration={500}> Contact</Link></li>
+                        {/* <li className="text-2xl py-3 text-gray-300  hover:text-cyan-700  hover:border-b-2 border-cyan-700 duration-200 ease-in cursor-pointer px-5"><Link onClick={handlemenu} to ="Contacts" smooth={true} duration={500}> Contact</Link></li> */}
                     </ul>
                     <div className=' flex flex-1 gap-2 absolute bottom-20'>
                         <a href='https://www.facebook.com/profile.php?id=100089104219371&mibextid=9R9pXO' target="_blank" >
