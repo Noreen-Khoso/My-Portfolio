@@ -1,7 +1,7 @@
 import React from 'react'
 import project from "../Assets/food.PNG"
 import miniproject from "../Assets/miniproject.PNG"
-import project from "../Assets/projects.PNG"
+import imgproject from "../Assets/projects.PNG"
 
 const Projects = () => {
   return (
@@ -42,7 +42,7 @@ const Projects = () => {
                     </div>
                     </div>
 
-                    <div style={{backgroundImage : `url(${project})`}}  className=' shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{backgroundImage : `url(${imgproject})`}}  className=' shadow-lg shadow-gray-800 group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className=' opacity-0 group-hover:opacity-100'>
                         <span className=' text-2xl font-bold text-white tracking-wider'>
                           React Js With Tailwind CSS
