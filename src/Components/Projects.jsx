@@ -48,8 +48,8 @@ const Projects = () => {
                           React Js With Tailwind CSS
                         </span>
                         <div className=' pt-10 text-center'>
-                            <a href="https://github.com/Noreen-Khoso/Mini-Project.git" target='_blank'><button className=' text-center rounded-lg bg-white text-gray-700 font-bold text-lg'>code</button></a>
-                            {/* <a href=""><button className='text-center rounded-lg bg-white text-gray-700 font-bold text-lg'></button></a> */}
+                            <a href="https://github.com/Noreen-Khoso/my-project-/tree/main/src" target='_blank'><button className=' text-center rounded-lg bg-white text-gray-700 font-bold text-lg'>code</button></a>
+                             <a href="https://mywebsite-sand-eta.vercel.app/" target='_blank'><button className='text-center rounded-lg bg-white text-gray-700 font-bold text-lg'>Demo</button></a> 
                         </div>
                         </div>
                     
